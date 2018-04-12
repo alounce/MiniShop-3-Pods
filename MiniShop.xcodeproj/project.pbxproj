@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093E530C62499965DBF15F73 /* Pods_MiniShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B710FCDA36F3FA1F67FA1E62 /* Pods_MiniShopTests.framework */; };
+		111D7C282066FA3600436ACE /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 111D7C272066FA3600436ACE /* .swiftlint.yml */; };
+		113EB61A2063B56F0056B12E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EB6192063B56F0056B12E /* AppDelegate.swift */; };
+		113EB61F2063B56F0056B12E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113EB61D2063B56F0056B12E /* Main.storyboard */; };
+		113EB6242063B56F0056B12E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113EB6222063B56F0056B12E /* LaunchScreen.storyboard */; };
+		113EB62F2063B56F0056B12E /* MiniShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EB62E2063B56F0056B12E /* MiniShopTests.swift */; };
+		1195B82E2063DB3200C4AA05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1195B82D2063DB3200C4AA05 /* Assets.xcassets */; };
+		1195B84A20651CEC00C4AA05 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195B84920651CEC00C4AA05 /* CustomError.swift */; };
+		1195B84C20651D2600C4AA05 /* MiniShopDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195B84B20651D2600C4AA05 /* MiniShopDataProvider.swift */; };
+		6459AAB78555F06ED59A3967 /* Pods_MiniShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E4A5145D35C1D1B1BB422B /* Pods_MiniShop.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		113EB62B2063B56F0056B12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 113EB60E2063B56F0056B12E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 113EB6152063B56F0056B12E;
+			remoteInfo = MiniShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11649E6E2074C7FC00976B1F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		111D7C272066FA3600436ACE /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		113EB6162063B56F0056B12E /* MiniShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		113EB6192063B56F0056B12E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		113EB61E2063B56F0056B12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		113EB6232063B56F0056B12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		113EB6252063B56F0056B12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113EB62A2063B56F0056B12E /* MiniShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		113EB62E2063B56F0056B12E /* MiniShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniShopTests.swift; sourceTree = "<group>"; };
+		113EB6302063B56F0056B12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1195B82D2063DB3200C4AA05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1195B84920651CEC00C4AA05 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		1195B84B20651D2600C4AA05 /* MiniShopDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniShopDataProvider.swift; sourceTree = "<group>"; };
+		477D4BE32122171E8D782732 /* Pods-MiniShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniShopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiniShopTests/Pods-MiniShopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D20AE0F75EAB05DDBF59ECC /* Pods-MiniShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiniShop/Pods-MiniShop.debug.xcconfig"; sourceTree = "<group>"; };
+		7ADC3423DD19789BE8DA1F3B /* Pods-MiniShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniShopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiniShopTests/Pods-MiniShopTests.release.xcconfig"; sourceTree = "<group>"; };
+		B710FCDA36F3FA1F67FA1E62 /* Pods_MiniShopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniShopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B863A203314762E3725122 /* Pods-MiniShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiniShop/Pods-MiniShop.release.xcconfig"; sourceTree = "<group>"; };
+		D0E4A5145D35C1D1B1BB422B /* Pods_MiniShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		113EB6132063B56F0056B12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6459AAB78555F06ED59A3967 /* Pods_MiniShop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113EB6272063B56F0056B12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093E530C62499965DBF15F73 /* Pods_MiniShopTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		113EB60D2063B56F0056B12E = {
+			isa = PBXGroup;
+			children = (
+				113EB6182063B56F0056B12E /* MiniShop */,
+				113EB62D2063B56F0056B12E /* MiniShopTests */,
+				113EB6172063B56F0056B12E /* Products */,
+				DBE105502D3A9865178956E2 /* Pods */,
+				E66BF8EBB63D1FEF8DFC02CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		113EB6172063B56F0056B12E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				113EB6162063B56F0056B12E /* MiniShop.app */,
+				113EB62A2063B56F0056B12E /* MiniShopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		113EB6182063B56F0056B12E /* MiniShop */ = {
+			isa = PBXGroup;
+			children = (
+				1195B84820651CBD00C4AA05 /* Network */,
+				1195B8292063CBF600C4AA05 /* UI */,
+				1195B82A2063CC0B00C4AA05 /* Configuration */,
+			);
+			path = MiniShop;
+			sourceTree = "<group>";
+		};
+		113EB62D2063B56F0056B12E /* MiniShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				113EB62E2063B56F0056B12E /* MiniShopTests.swift */,
+				113EB6302063B56F0056B12E /* Info.plist */,
+			);
+			path = MiniShopTests;
+			sourceTree = "<group>";
+		};
+		1195B8292063CBF600C4AA05 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				113EB61D2063B56F0056B12E /* Main.storyboard */,
+				113EB6222063B56F0056B12E /* LaunchScreen.storyboard */,
+				1195B82D2063DB3200C4AA05 /* Assets.xcassets */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		1195B82A2063CC0B00C4AA05 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				111D7C272066FA3600436ACE /* .swiftlint.yml */,
+				113EB6192063B56F0056B12E /* AppDelegate.swift */,
+				113EB6252063B56F0056B12E /* Info.plist */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		1195B84820651CBD00C4AA05 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1195B84920651CEC00C4AA05 /* CustomError.swift */,
+				1195B84B20651D2600C4AA05 /* MiniShopDataProvider.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DBE105502D3A9865178956E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D20AE0F75EAB05DDBF59ECC /* Pods-MiniShop.debug.xcconfig */,
+				C1B863A203314762E3725122 /* Pods-MiniShop.release.xcconfig */,
+				477D4BE32122171E8D782732 /* Pods-MiniShopTests.debug.xcconfig */,
+				7ADC3423DD19789BE8DA1F3B /* Pods-MiniShopTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E66BF8EBB63D1FEF8DFC02CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0E4A5145D35C1D1B1BB422B /* Pods_MiniShop.framework */,
+				B710FCDA36F3FA1F67FA1E62 /* Pods_MiniShopTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		113EB6152063B56F0056B12E /* MiniShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113EB6332063B56F0056B12E /* Build configuration list for PBXNativeTarget "MiniShop" */;
+			buildPhases = (
+				064310B7F0D02D7154DDFB07 /* [CP] Check Pods Manifest.lock */,
+				113EB6122063B56F0056B12E /* Sources */,
+				113EB6132063B56F0056B12E /* Frameworks */,
+				113EB6142063B56F0056B12E /* Resources */,
+				A28DE8FB1E6AFDA5FDAD5FA8 /* [CP] Embed Pods Frameworks */,
+				111D7C262066F73300436ACE /* Run SwiftLint */,
+				11649E6E2074C7FC00976B1F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniShop;
+			productName = MiniShop;
+			productReference = 113EB6162063B56F0056B12E /* MiniShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		113EB6292063B56F0056B12E /* MiniShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113EB6362063B56F0056B12E /* Build configuration list for PBXNativeTarget "MiniShopTests" */;
+			buildPhases = (
+				A79C59DE5FC051F3FBEDC782 /* [CP] Check Pods Manifest.lock */,
+				113EB6262063B56F0056B12E /* Sources */,
+				113EB6272063B56F0056B12E /* Frameworks */,
+				113EB6282063B56F0056B12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				113EB62C2063B56F0056B12E /* PBXTargetDependency */,
+			);
+			name = MiniShopTests;
+			productName = MiniShopTests;
+			productReference = 113EB62A2063B56F0056B12E /* MiniShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		113EB60E2063B56F0056B12E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Alexander Karpenko";
+				TargetAttributes = {
+					113EB6152063B56F0056B12E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					113EB6292063B56F0056B12E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 113EB6152063B56F0056B12E;
+					};
+				};
+			};
+			buildConfigurationList = 113EB6112063B56F0056B12E /* Build configuration list for PBXProject "MiniShop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 113EB60D2063B56F0056B12E;
+			productRefGroup = 113EB6172063B56F0056B12E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				113EB6152063B56F0056B12E /* MiniShop */,
+				113EB6292063B56F0056B12E /* MiniShopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		113EB6142063B56F0056B12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111D7C282066FA3600436ACE /* .swiftlint.yml in Resources */,
+				113EB6242063B56F0056B12E /* LaunchScreen.storyboard in Resources */,
+				1195B82E2063DB3200C4AA05 /* Assets.xcassets in Resources */,
+				113EB61F2063B56F0056B12E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113EB6282063B56F0056B12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		064310B7F0D02D7154DDFB07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		111D7C262066F73300436ACE /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+		};
+		A28DE8FB1E6AFDA5FDAD5FA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MiniShop/Pods-MiniShop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MiniShop.Catalog/MiniShop_Catalog.framework",
+				"${BUILT_PRODUCTS_DIR}/MiniShop.Shared/MiniShop_Shared.framework",
+				"${BUILT_PRODUCTS_DIR}/MiniShop.Shop/MiniShop_Shop.framework",
+				"${BUILT_PRODUCTS_DIR}/MiniShop.Stock/MiniShop_Stock.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MiniShop_Catalog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MiniShop_Shared.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MiniShop_Shop.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MiniShop_Stock.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiniShop/Pods-MiniShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A79C59DE5FC051F3FBEDC782 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniShopTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		113EB6122063B56F0056B12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113EB61A2063B56F0056B12E /* AppDelegate.swift in Sources */,
+				1195B84A20651CEC00C4AA05 /* CustomError.swift in Sources */,
+				1195B84C20651D2600C4AA05 /* MiniShopDataProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113EB6262063B56F0056B12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113EB62F2063B56F0056B12E /* MiniShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		113EB62C2063B56F0056B12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 113EB6152063B56F0056B12E /* MiniShop */;
+			targetProxy = 113EB62B2063B56F0056B12E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		113EB61D2063B56F0056B12E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113EB61E2063B56F0056B12E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		113EB6222063B56F0056B12E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113EB6232063B56F0056B12E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		113EB6312063B56F0056B12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		113EB6322063B56F0056B12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		113EB6342063B56F0056B12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D20AE0F75EAB05DDBF59ECC /* Pods-MiniShop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = URY6ZXAK69;
+				INFOPLIST_FILE = MiniShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexk.MiniShop-CocoaPods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		113EB6352063B56F0056B12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B863A203314762E3725122 /* Pods-MiniShop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = URY6ZXAK69;
+				INFOPLIST_FILE = MiniShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexk.MiniShop-CocoaPods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		113EB6372063B56F0056B12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477D4BE32122171E8D782732 /* Pods-MiniShopTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = URY6ZXAK69;
+				INFOPLIST_FILE = MiniShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexk.MiniShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniShop.app/MiniShop";
+			};
+			name = Debug;
+		};
+		113EB6382063B56F0056B12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ADC3423DD19789BE8DA1F3B /* Pods-MiniShopTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = URY6ZXAK69;
+				INFOPLIST_FILE = MiniShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexk.MiniShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniShop.app/MiniShop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		113EB6112063B56F0056B12E /* Build configuration list for PBXProject "MiniShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113EB6312063B56F0056B12E /* Debug */,
+				113EB6322063B56F0056B12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113EB6332063B56F0056B12E /* Build configuration list for PBXNativeTarget "MiniShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113EB6342063B56F0056B12E /* Debug */,
+				113EB6352063B56F0056B12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113EB6362063B56F0056B12E /* Build configuration list for PBXNativeTarget "MiniShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113EB6372063B56F0056B12E /* Debug */,
+				113EB6382063B56F0056B12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 113EB60E2063B56F0056B12E /* Project object */;
+}

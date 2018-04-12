@@ -1,0 +1,50 @@
+included: # paths to include during linting. `--path` is ignored if present.
+- ../Shared
+- ../ProductCatalog
+- ../Shop
+- ../Stock
+- MiniShop
+excluded:
+- Pods
+disabled_rules: # rule identifiers to exclude from running
+- cyclomatic_complexity
+- line_length
+- todo
+- sorted_imports
+- trailing_whitespace
+opt_in_rules:
+- empty_count
+- explicit_init
+- closure_spacing
+- overridden_super_call
+- redundant_nil_coalescing
+- private_outlet
+- nimble_operator
+- attributes
+- operator_usage_whitespace
+- first_where
+- sorted_imports
+- number_separator
+- prohibited_super_call
+- fatal_error_message
+- vertical_parameter_alignment_on_call
+- let_var_whitespace
+- unneeded_parentheses_in_closure_argument
+- extension_access_modifier
+- pattern_matching_keywords
+- array_init
+- literal_expression_end_indentation
+
+identifier_name:
+ excluded:
+  - id
+file_length: 1200
+type_body_length: 500
+function_body_length: 100
+number_separator:
+ minimum_length: 4
+
+
+# DISABLED
+#- file_header
+#- closure_end_indentation

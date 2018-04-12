@@ -1,0 +1,269 @@
+{
+	"posts": [
+		{
+			"id": 1,
+			"title": "json-server",
+			"author": "alex"
+		}
+	],
+	"comments": [
+		{
+			"id": 1,
+			"body": "some comment",
+			"postId": 1
+		}
+	],
+	"profile": {
+		"fullname": "Oleksandr Karpenko",
+		"login": "alex",
+		"type": "admin"
+	},
+	"orders": [
+		{
+			"id": 1,
+			"type": 1,
+			"date": "2018/1/10",
+			"details": [
+				{
+					"id": 1,
+					"product": 2,
+					"qty": 10
+				},
+				{
+					"id": 2,
+					"product": 4,
+					"qty": 10
+				},
+				{
+					"id": 3,
+					"product": 6,
+					"qty": 10
+				},
+				{
+					"id": 4,
+					"product": 8,
+					"qty": 10
+				}
+			]
+		},
+		{
+			"id": 2,
+			"type": 2,
+			"date": "2018/2/10",
+			"details": [
+				{
+					"id": 5,
+					"product": 2,
+					"qty": 3
+				},
+				{
+					"id": 6,
+					"product": 4,
+					"qty": 3
+				},
+				{
+					"id": 7,
+					"product": 6,
+					"qty": 3
+				},
+				{
+					"id": 8,
+					"product": 8,
+					"qty": 3
+				}
+			]
+		},
+		{
+			"id": 3,
+			"type": 1,
+			"date": "2018/3/10",
+			"details": [
+				{
+					"id": 9,
+					"product": 1,
+					"qty": 10
+				},
+				{
+					"id": 10,
+					"product": 3,
+					"qty": 10
+				},
+				{
+					"id": 11,
+					"product": 5,
+					"qty": 10
+				},
+				{
+					"id": 12,
+					"product": 7,
+					"qty": 10
+				}
+			]
+		},
+		{
+			"id": 4,
+			"type": 2,
+			"date": "2018/4/10",
+			"details": [
+				{
+					"id": 13,
+					"order": 4,
+					"product": 1,
+					"qty": 7
+				},
+				{
+					"id": 14,
+					"order": 4,
+					"product": 3,
+					"qty": 6
+				},
+				{
+					"id": 15,
+					"order": 4,
+					"product": 5,
+					"qty": 6
+				},
+				{
+					"id": 16,
+					"order": 4,
+					"product": 7,
+					"qty": 6
+				}
+			]
+		}
+	],
+	"products": [
+		{
+			"id": 1,
+			"title": "Apple MacBook Pro 15 Low",
+			"details": "i7 2.8GHz; 256 GB SSD; 16GB RAM",
+			"price": 2220
+		},
+		{
+			"id": 2,
+			"title": "Apple MacBook Pro 15 High",
+			"details": "i7 3.1GHz; 512 GB SSD; 16GB RAM",
+			"price": 3500
+		},
+		{
+			"id": 3,
+			"title": "Apple iMac Pro Low",
+			"details": "Intel Xeon W 3.2GHz 8-core; 1 TB SSD; 32GB RAM",
+			"price": 5260
+		},
+		{
+			"id": 4,
+			"title": "Apple iMac Pro High",
+			"details": "Intel Xeon W 3.0GHz 10-core; 1 TB SSD; 64GB RAM",
+			"price": 8800
+		},
+		{
+			"id": 5,
+			"title": "Apple iPhone X Low",
+			"details": "64GB RAM",
+			"price": 1075
+		},
+		{
+			"id": 6,
+			"title": "Apple iPhone X High",
+			"details": "256GB RAM",
+			"price": 1230
+		},
+		{
+			"id": 7,
+			"title": "Apple iPhone 8 Low",
+			"details": "64GB RAM",
+			"price": 760
+		},
+		{
+			"id": 8,
+			"title": "Apple iPhone 8 High",
+			"details": "256GB RAM",
+			"price": 920
+		},
+		{
+			"id": 9,
+			"title": "Apple iPhone 8 Plus Low",
+			"details": "64GB RAM",
+			"price": 870
+		},
+		{
+			"id": 10,
+			"title": "Apple iPhone 8 Plus High",
+			"details": "256GB RAM",
+			"price": 1025
+		},
+		{
+			"id": 11,
+			"title": "Apple HomePod",
+			"details": "Smart speaker :) ",
+			"price": 480
+		},
+		{
+			"id": 12,
+			"title": "Apple Magic Mouse",
+			"details": "Wireless, 1 Gen",
+			"price": 90
+		},
+		{
+			"id": 13,
+			"title": "Apple Magic Keyboard",
+			"details": "Wireless, 1 Gen",
+			"price": 90
+		},
+		{
+			"id": 14,
+			"title": "Apple Magic Keyboard",
+			"details": "Wireless, 2 Gen",
+			"price": 130
+		},
+		{
+			"id": 15,
+			"title": "Magic Trackpad",
+			"details": "Wireless, 1 Gen",
+			"price": 90
+		},
+		{
+			"id": 16,
+			"title": "Apple Magic Trackpad",
+			"details": "Wireless, 2 Gen",
+			"price": 140
+		},
+		{
+			"id": 17,
+			"title": "Apple AirPods",
+			"details": "1 Gen",
+			"price": 210
+		},
+		{
+			"id": 18,
+			"title": "Apple Time Capsule Low",
+			"details": "2TB",
+			"price": 335
+		},
+		{
+			"id": 19,
+			"title": "Apple Time Capsule High",
+			"details": "3 TB",
+			"price": 425
+		},
+		{
+			"id": 20,
+			"title": "iPad Pro 12.9",
+			"details": "Wi-Fi 64GB",
+			"price": 850
+		},
+		{
+			"id": 21,
+			"title": "iPad Pro 10.5",
+			"details": "Wi-Fi 64GB",
+			"price": 655
+		},
+		{
+			"id": 22,
+			"title": "iPad Pro 9.7",
+			"details": "Wi-Fi 128GB",
+			"price": 475
+		}
+	]
+}
